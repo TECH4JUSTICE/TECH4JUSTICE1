@@ -1,73 +1,67 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-<title>About | Tech4Justice</title>
-
-<link rel="stylesheet" href="css/main.css">
-<link rel="stylesheet" href="css/animations.css">
-
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About · Tech 4 Justice</title>
+  <link rel="stylesheet" href="./style.css" />
 </head>
-
 <body>
+  <a class="skip-link" href="#main">Skip to main content</a>
 
-<header class="nav-bar">
+  <div class="wrap">
+    <header>
+      <nav class="nav" aria-label="Primary navigation">
+        <div class="brand">
+          <div class="badge">Hear Me Out · Tech 4 Justice</div>
+          <div class="tagline">Share | Hear | Change</div>
+        </div>
 
-<div class="logo">
-Tech4Justice
-</div>
+        <div class="nav-links">
+          <a href="./index.html">Home</a>
+          <a href="./disability.html">Disability assistant</a>
+          <a href="./racial.html">Racial assistant</a>
+          <a href="./discrimination.html">Discrimination info</a>
+          <a href="./pathways.html">Complaint pathways</a>
+          <a href="./clinic.html">Clinic</a>
+          <a href="./about.html" aria-current="page">About</a>
+        </div>
+      </nav>
+    </header>
 
-<nav>
+    <main id="main">
+      <h1>About this site</h1>
 
-<a href="index.html">Home</a>
-<a href="about.html">About</a>
-<a href="complaints.html">Complaints</a>
+      <div class="grid">
+        <section class="card full" aria-label="Purpose">
+          <h2>Purpose</h2>
+          <p class="small">
+            This site hosts discrimination assistants and short guidance pages to help people prepare clearer complaints and understand possible pathways.
+          </p>
+        </section>
 
-</nav>
+        <section class="card" aria-label="How to use it">
+          <h2>How to use it</h2>
+          <p class="small">
+            Start with an assistant to structure your story. Then check the discrimination and pathways pages to plan next steps.
+          </p>
+        </section>
 
-</header>
+        <section class="card" aria-label="How to update">
+          <h2>How to update</h2>
+          <p class="small">
+            This is a simple GitHub Pages site. Edit the HTML files in GitHub, commit changes, and it updates automatically.
+          </p>
+        </section>
 
-<section class="page-container">
-
-<h1>About the Tech4Justice Clinic</h1>
-
-<div class="glass-panel">
-
-<p>
-Students will write the content for this section.
-</p>
-
-</div>
-
-<div class="two-column">
-
-<div class="glass-panel">
-
-<h2>Our Mission</h2>
-
-<p>
-Placeholder text for students.
-</p>
-
-</div>
-
-<div class="glass-panel">
-
-<h2>Our Work</h2>
-
-<p>
-Placeholder text for students.
-</p>
-
-</div>
-
-</div>
-
-</section>
-
+        <section class="card full" aria-label="Disclaimer">
+          <h2>Disclaimer</h2>
+          <p class="small">
+            This information is general. It may not apply to every situation. If you need legal advice, seek help from a qualified service.
+          </p>
+        </section>
+      </div>
+    </main>
+  </div>
 </body>
 </html>
